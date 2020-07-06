@@ -70,7 +70,7 @@
                   "inspector",
                   "cocos-services"
                 ],
-                "height": 619.390625,
+                "height": 618.390625,
                 "type": "panel",
                 "width": 570
               },
@@ -81,7 +81,7 @@
                   "timeline",
                   "game-window"
                 ],
-                "height": 266.609375,
+                "height": 267.59375,
                 "type": "panel",
                 "width": 570
               }
@@ -105,9 +105,7 @@
         "timeline",
         "game-window"
       ]
-    },
-    "window-1594034096880": {},
-    "worker": {}
+    }
   },
   "panels": {
     "project-settings": {
@@ -117,7 +115,7 @@
       "height": 548
     },
     "builder": {
-      "x": 688,
+      "x": 583,
       "y": 151,
       "width": 500,
       "height": 722

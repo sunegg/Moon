@@ -1,78 +1,78 @@
-2020-07-06T11:13:42.207Z - normal: Load ~/.CocosCreator/settings.json
-2020-07-06T11:13:42.235Z - normal: Initializing Asset Database
-2020-07-06T11:13:42.237Z - normal: checking language setting...
-2020-07-06T11:13:42.237Z - normal: Language: zh
-2020-07-06T11:13:43.026Z - success: preview server running at http://localhost:7456
-2020-07-06T11:13:43.035Z - success: protocol editor-framework registered
-2020-07-06T11:13:43.035Z - success: protocol app registered
-2020-07-06T11:13:43.035Z - success: protocol theme registered
-2020-07-06T11:13:43.035Z - success: protocol packages registered
-2020-07-06T11:13:43.035Z - success: protocol uuid registerred
-2020-07-06T11:13:43.035Z - success: protocol db registerred
-2020-07-06T11:13:43.035Z - success: protocol thumbnail registerred
-2020-07-06T11:13:43.035Z - success: protocol unpack registerred
-2020-07-06T11:13:43.035Z - success: protocol disable-commonjs registerred
-2020-07-06T11:13:46.029Z - normal: failed to connect login server due to request timeout
-2020-07-06T11:13:46.030Z - normal: Check project /Users/sunegg/Desktop/Sunegg/Cocos/projects/moon
-2020-07-06T11:13:46.031Z - normal: Initializing project /Users/sunegg/Desktop/Sunegg/Cocos/projects/moon
-2020-07-06T11:13:46.042Z - success: adapters loaded
-2020-07-06T11:13:46.045Z - success: asset-db-debugger loaded
-2020-07-06T11:13:46.086Z - success: fb-audience-network loaded
-2020-07-06T11:13:46.106Z - success: fb-live-stream loaded
-2020-07-06T11:13:46.108Z - success: google-play-instant loaded
-2020-07-06T11:13:46.109Z - success: huawei-adapter loaded
-2020-07-06T11:13:46.109Z - success: jkw-adapter loaded
-2020-07-06T11:13:46.110Z - success: jsb-adapter loaded
-2020-07-06T11:13:46.111Z - success: oppo-adapter loaded
-2020-07-06T11:13:46.115Z - success: package-manager loaded
-2020-07-06T11:13:46.115Z - success: qtt-adapter loaded
-2020-07-06T11:13:46.117Z - success: runtime-dev-tools loaded
-2020-07-06T11:13:46.121Z - success: sdkbox loaded
-2020-07-06T11:13:46.124Z - success: ui-kit-preview-extra loaded
-2020-07-06T11:13:46.127Z - success: ui-kit-preview loaded
-2020-07-06T11:13:46.128Z - success: vivo-adapter loaded
-2020-07-06T11:13:46.170Z - success: alipay-minigame loaded
-2020-07-06T11:13:46.218Z - success: assets loaded
-2020-07-06T11:13:46.219Z - success: baidugame-opendata loaded
-2020-07-06T11:13:46.220Z - success: baidugame loaded
-2020-07-06T11:13:46.222Z - success: builder loaded
-2020-07-06T11:13:46.226Z - success: cloud-function loaded
-2020-07-06T11:13:46.381Z - success: cocos-services loaded
-2020-07-06T11:13:46.384Z - success: console loaded
-2020-07-06T11:13:46.385Z - success: curve-editor loaded
-2020-07-06T11:13:46.394Z - success: fb-instant-games loaded
-2020-07-06T11:13:46.396Z - success: game-window loaded
-2020-07-06T11:13:46.398Z - success: google-instant-games loaded
-2020-07-06T11:13:46.400Z - success: hierarchy loaded
-2020-07-06T11:13:46.404Z - success: huawei-runtime loaded
-2020-07-06T11:13:46.407Z - success: inspector loaded
-2020-07-06T11:13:46.462Z - success: cpk-publish loaded
-2020-07-06T11:13:46.463Z - success: keystore loaded
-2020-07-06T11:13:46.476Z - success: node-library loaded
-2020-07-06T11:13:46.476Z - success: open-recent-items loaded
-2020-07-06T11:13:46.479Z - success: oppo-runtime loaded
-2020-07-06T11:13:46.480Z - success: package-asset loaded
-2020-07-06T11:13:46.481Z - success: preferences loaded
-2020-07-06T11:13:46.483Z - success: project-importer loaded
-2020-07-06T11:13:46.485Z - success: project-settings loaded
-2020-07-06T11:13:46.496Z - success: qtt-runtime loaded
-2020-07-06T11:13:46.499Z - success: scene loaded
-2020-07-06T11:13:46.500Z - success: simulator-debugger loaded
-2020-07-06T11:13:46.500Z - success: sprite-editor loaded
-2020-07-06T11:13:46.530Z - success: store loaded
-2020-07-06T11:13:46.533Z - success: timeline loaded
-2020-07-06T11:13:46.538Z - success: vivo-runtime loaded
-2020-07-06T11:13:46.539Z - success: wechatgame-opendata loaded
-2020-07-06T11:13:46.542Z - success: wechatgame loaded
-2020-07-06T11:13:46.546Z - success: xiaomi-runtime loaded
-2020-07-06T11:13:46.669Z - success: im-plugin loaded
-2020-07-06T11:13:47.696Z - normal: Initializing Cocos2d
-2020-07-06T11:13:47.928Z - normal: Initializing engine extends
-2020-07-06T11:13:49.480Z - normal: Loading packages
-2020-07-06T11:13:49.481Z - normal: Watching packages
-2020-07-06T11:13:49.543Z - normal: Run Application
-2020-07-06T11:13:50.821Z - info: Cocos Service load base data!
-2020-07-06T11:13:53.906Z - warn: Please specifiy a default value for "Jump.touchNode" at its declaration:
+2020-07-06T18:52:46.203Z - normal: Load ~/.CocosCreator/settings.json
+2020-07-06T18:52:46.232Z - normal: Initializing Asset Database
+2020-07-06T18:52:46.235Z - normal: checking language setting...
+2020-07-06T18:52:46.235Z - normal: Language: zh
+2020-07-06T18:52:47.035Z - success: preview server running at http://localhost:7456
+2020-07-06T18:52:47.044Z - success: protocol editor-framework registered
+2020-07-06T18:52:47.044Z - success: protocol app registered
+2020-07-06T18:52:47.045Z - success: protocol theme registered
+2020-07-06T18:52:47.045Z - success: protocol packages registered
+2020-07-06T18:52:47.045Z - success: protocol uuid registerred
+2020-07-06T18:52:47.045Z - success: protocol db registerred
+2020-07-06T18:52:47.045Z - success: protocol thumbnail registerred
+2020-07-06T18:52:47.045Z - success: protocol unpack registerred
+2020-07-06T18:52:47.045Z - success: protocol disable-commonjs registerred
+2020-07-06T18:52:48.548Z - normal: connected!
+2020-07-06T18:52:48.549Z - normal: Check project /Users/sunegg/Desktop/Sunegg/Cocos/projects/moon
+2020-07-06T18:52:48.550Z - normal: Initializing project /Users/sunegg/Desktop/Sunegg/Cocos/projects/moon
+2020-07-06T18:52:48.565Z - success: adapters loaded
+2020-07-06T18:52:48.568Z - success: asset-db-debugger loaded
+2020-07-06T18:52:48.617Z - success: fb-audience-network loaded
+2020-07-06T18:52:48.644Z - success: fb-live-stream loaded
+2020-07-06T18:52:48.646Z - success: google-play-instant loaded
+2020-07-06T18:52:48.646Z - success: huawei-adapter loaded
+2020-07-06T18:52:48.647Z - success: jkw-adapter loaded
+2020-07-06T18:52:48.648Z - success: jsb-adapter loaded
+2020-07-06T18:52:48.648Z - success: oppo-adapter loaded
+2020-07-06T18:52:48.652Z - success: package-manager loaded
+2020-07-06T18:52:48.652Z - success: qtt-adapter loaded
+2020-07-06T18:52:48.654Z - success: runtime-dev-tools loaded
+2020-07-06T18:52:48.658Z - success: sdkbox loaded
+2020-07-06T18:52:48.661Z - success: ui-kit-preview-extra loaded
+2020-07-06T18:52:48.663Z - success: ui-kit-preview loaded
+2020-07-06T18:52:48.663Z - success: vivo-adapter loaded
+2020-07-06T18:52:48.697Z - success: alipay-minigame loaded
+2020-07-06T18:52:48.745Z - success: assets loaded
+2020-07-06T18:52:48.746Z - success: baidugame-opendata loaded
+2020-07-06T18:52:48.747Z - success: baidugame loaded
+2020-07-06T18:52:48.751Z - success: builder loaded
+2020-07-06T18:52:48.756Z - success: cloud-function loaded
+2020-07-06T18:52:48.896Z - success: cocos-services loaded
+2020-07-06T18:52:48.899Z - success: console loaded
+2020-07-06T18:52:48.900Z - success: curve-editor loaded
+2020-07-06T18:52:48.910Z - success: fb-instant-games loaded
+2020-07-06T18:52:48.913Z - success: game-window loaded
+2020-07-06T18:52:48.914Z - success: google-instant-games loaded
+2020-07-06T18:52:48.917Z - success: hierarchy loaded
+2020-07-06T18:52:48.919Z - success: huawei-runtime loaded
+2020-07-06T18:52:48.921Z - success: inspector loaded
+2020-07-06T18:52:48.988Z - success: cpk-publish loaded
+2020-07-06T18:52:48.988Z - success: keystore loaded
+2020-07-06T18:52:49.000Z - success: node-library loaded
+2020-07-06T18:52:49.001Z - success: open-recent-items loaded
+2020-07-06T18:52:49.003Z - success: oppo-runtime loaded
+2020-07-06T18:52:49.004Z - success: package-asset loaded
+2020-07-06T18:52:49.004Z - success: preferences loaded
+2020-07-06T18:52:49.007Z - success: project-importer loaded
+2020-07-06T18:52:49.009Z - success: project-settings loaded
+2020-07-06T18:52:49.019Z - success: qtt-runtime loaded
+2020-07-06T18:52:49.022Z - success: scene loaded
+2020-07-06T18:52:49.023Z - success: simulator-debugger loaded
+2020-07-06T18:52:49.023Z - success: sprite-editor loaded
+2020-07-06T18:52:49.052Z - success: store loaded
+2020-07-06T18:52:49.055Z - success: timeline loaded
+2020-07-06T18:52:49.058Z - success: vivo-runtime loaded
+2020-07-06T18:52:49.059Z - success: wechatgame-opendata loaded
+2020-07-06T18:52:49.062Z - success: wechatgame loaded
+2020-07-06T18:52:49.064Z - success: xiaomi-runtime loaded
+2020-07-06T18:52:49.175Z - success: im-plugin loaded
+2020-07-06T18:52:50.214Z - normal: Initializing Cocos2d
+2020-07-06T18:52:50.470Z - normal: Initializing engine extends
+2020-07-06T18:52:51.220Z - normal: Loading packages
+2020-07-06T18:52:51.222Z - normal: Watching packages
+2020-07-06T18:52:51.299Z - normal: Run Application
+2020-07-06T18:52:52.031Z - info: Cocos Service load base data!
+2020-07-06T18:52:55.559Z - warn: Please specifiy a default value for "Jump.touchNode" at its declaration:
  
 // Before:
 @property(...)
@@ -80,7 +80,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2020-07-06T11:13:53.907Z - warn: Please specifiy a default value for "RandomSpawner.prefab" at its declaration:
+2020-07-06T18:52:55.560Z - warn: Please specifiy a default value for "RandomSpawner.prefab" at its declaration:
  
 // Before:
 @property(...)
@@ -88,7 +88,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2020-07-06T11:13:53.907Z - warn: Please specifiy a default value for "RandomSpawner.parent" at its declaration:
+2020-07-06T18:52:55.560Z - warn: Please specifiy a default value for "RandomSpawner.parent" at its declaration:
  
 // Before:
 @property(...)
@@ -96,7 +96,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2020-07-06T11:13:53.908Z - warn: Please specifiy a default value for "GameManager.gameOverView" at its declaration:
+2020-07-06T18:52:55.561Z - warn: Please specifiy a default value for "GameManager.gameOverView" at its declaration:
  
 // Before:
 @property(...)
@@ -104,7 +104,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2020-07-06T11:13:53.908Z - warn: Please specifiy a default value for "GameManager.currentStair" at its declaration:
+2020-07-06T18:52:55.561Z - warn: Please specifiy a default value for "GameManager.currentStair" at its declaration:
  
 // Before:
 @property(...)
@@ -112,7 +112,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2020-07-06T11:13:53.908Z - warn: Please specifiy a default value for "GameManager.nextStair" at its declaration:
+2020-07-06T18:52:55.561Z - warn: Please specifiy a default value for "GameManager.nextStair" at its declaration:
  
 // Before:
 @property(...)
@@ -120,7 +120,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2020-07-06T11:13:53.908Z - warn: Please specifiy a default value for "GameManager.scoreLabel" at its declaration:
+2020-07-06T18:52:55.561Z - warn: Please specifiy a default value for "GameManager.scoreLabel" at its declaration:
  
 // Before:
 @property(...)
@@ -128,7 +128,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2020-07-06T11:13:53.908Z - error: Please change the definition of property 'scoreSfx' in class 'GameManager'. Since v1.10,
+2020-07-06T18:52:55.562Z - error: Please change the definition of property 'scoreSfx' in class 'GameManager'. Since v1.10,
 properties in CCClass can not be abbreviated if they are RawAsset.
 Please declare in the complete form.
 For example, if you have a property of Texture2D, the old definition is:
@@ -152,7 +152,7 @@ If you are using TS, you should use:
     at /Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/temp/quick-scripts/dst/assets/scripts/GameManager.js:157:25
     at Object.<anonymous> (/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/temp/quick-scripts/dst/assets/scripts/GameManager.js:164:19)
     at Object.<anonymous> (/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/temp/quick-scripts/dst/assets/scripts/GameManager.js:166:3)
-2020-07-06T11:13:53.909Z - warn: Please specifiy a default value for "GameManager.scoreSfx" at its declaration:
+2020-07-06T18:52:55.562Z - warn: Please specifiy a default value for "GameManager.scoreSfx" at its declaration:
  
 // Before:
 @property(...)
@@ -160,7 +160,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2020-07-06T11:13:53.909Z - error: Please change the definition of property 'gameOverSfx' in class 'GameManager'. Since v1.10,
+2020-07-06T18:52:55.562Z - error: Please change the definition of property 'gameOverSfx' in class 'GameManager'. Since v1.10,
 properties in CCClass can not be abbreviated if they are RawAsset.
 Please declare in the complete form.
 For example, if you have a property of Texture2D, the old definition is:
@@ -184,7 +184,7 @@ If you are using TS, you should use:
     at /Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/temp/quick-scripts/dst/assets/scripts/GameManager.js:157:25
     at Object.<anonymous> (/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/temp/quick-scripts/dst/assets/scripts/GameManager.js:164:19)
     at Object.<anonymous> (/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/temp/quick-scripts/dst/assets/scripts/GameManager.js:166:3)
-2020-07-06T11:13:53.909Z - warn: Please specifiy a default value for "GameManager.gameOverSfx" at its declaration:
+2020-07-06T18:52:55.562Z - warn: Please specifiy a default value for "GameManager.gameOverSfx" at its declaration:
  
 // Before:
 @property(...)
@@ -192,7 +192,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2020-07-06T11:13:53.909Z - error: Please change the definition of property 'jumpSfx' in class 'GameManager'. Since v1.10,
+2020-07-06T18:52:55.563Z - error: Please change the definition of property 'jumpSfx' in class 'GameManager'. Since v1.10,
 properties in CCClass can not be abbreviated if they are RawAsset.
 Please declare in the complete form.
 For example, if you have a property of Texture2D, the old definition is:
@@ -216,7 +216,7 @@ If you are using TS, you should use:
     at /Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/temp/quick-scripts/dst/assets/scripts/GameManager.js:157:25
     at Object.<anonymous> (/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/temp/quick-scripts/dst/assets/scripts/GameManager.js:164:19)
     at Object.<anonymous> (/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/temp/quick-scripts/dst/assets/scripts/GameManager.js:166:3)
-2020-07-06T11:13:53.909Z - warn: Please specifiy a default value for "GameManager.jumpSfx" at its declaration:
+2020-07-06T18:52:55.563Z - warn: Please specifiy a default value for "GameManager.jumpSfx" at its declaration:
  
 // Before:
 @property(...)
@@ -224,7 +224,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2020-07-06T11:13:53.910Z - warn: Please specifiy a default value for "PrivacySetup.webView" at its declaration:
+2020-07-06T18:52:55.564Z - warn: Please specifiy a default value for "PrivacySetup.webView" at its declaration:
  
 // Before:
 @property(...)
@@ -232,7 +232,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2020-07-06T11:13:53.912Z - error: Please change the definition of property 'audio' in class 'UIAudioButton'. Since v1.10,
+2020-07-06T18:52:55.567Z - error: Please change the definition of property 'audio' in class 'UIAudioButton'. Since v1.10,
 properties in CCClass can not be abbreviated if they are RawAsset.
 Please declare in the complete form.
 For example, if you have a property of Texture2D, the old definition is:
@@ -256,7 +256,7 @@ If you are using TS, you should use:
     at /Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/temp/quick-scripts/dst/assets/scripts/UIAudioButton.js:78:25
     at Object.<anonymous> (/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/temp/quick-scripts/dst/assets/scripts/UIAudioButton.js:85:19)
     at Object.<anonymous> (/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/temp/quick-scripts/dst/assets/scripts/UIAudioButton.js:87:3)
-2020-07-06T11:13:53.914Z - warn: Please specifiy a default value for "UIShowNode.hideScene" at its declaration:
+2020-07-06T18:52:55.568Z - warn: Please specifiy a default value for "UIShowNode.hideScene" at its declaration:
  
 // Before:
 @property(...)
@@ -264,7 +264,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2020-07-06T11:13:53.914Z - warn: Please specifiy a default value for "UIShowNode.showScene" at its declaration:
+2020-07-06T18:52:55.569Z - warn: Please specifiy a default value for "UIShowNode.showScene" at its declaration:
  
 // Before:
 @property(...)
@@ -272,121 +272,3 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2020-07-06T11:15:08.648Z - normal: Start building with options : {
-  "actualPlatform": "ios",
-  "android": {
-    "packageName": "org.cocos2d.demo"
-  },
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "packageName": "org.cocos2d.demo",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "appBundle": false,
-  "buildPath": "/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/build",
-  "buildScriptsOnly": false,
-  "debug": false,
-  "dest": "/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/build/jsb-default",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "Dynamic Atlas",
-    "DragonBones",
-    "EditBox",
-    "Graphics",
-    "Layout",
-    "Mask",
-    "MotionStreak",
-    "NodePool",
-    "Native Socket",
-    "PageView",
-    "PageViewIndicator",
-    "ProgressBar",
-    "ParticleSystem",
-    "RichText",
-    "Renderer Texture",
-    "Slider",
-    "ScrollBar",
-    "ScrollView",
-    "Spine Skeleton",
-    "StudioComponent",
-    "Toggle",
-    "TiledMap",
-    "VideoPlayer",
-    "3D Primitive",
-    "3D Physics/cannon.js",
-    "3D Physics/Builtin",
-    "3D Particle"
-  ],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "ios": {
-    "packageName": "org.cocos2d.demo"
-  },
-  "mac": {
-    "packageName": "org.cocos2d.demo"
-  },
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": false,
-    "landscapeRight": false,
-    "portrait": true,
-    "upsideDown": true
-  },
-  "packageName": "org.cocos2d.demo",
-  "platform": "ios",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "scenes": [
-    "08e94cef-a60d-4f36-9a63-e9d4dfb8f06c",
-    "ca16e524-97b9-468d-9615-efa2a14f90f6",
-    "ab4161ec-d1ad-4500-8edc-877de45d7794",
-    "c53ce51c-5150-40ff-87c8-29784475b57e"
-  ],
-  "sourceMaps": false,
-  "startScene": "08e94cef-a60d-4f36-9a63-e9d4dfb8f06c",
-  "template": "default",
-  "title": "moon",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "win32": {},
-  "xxteaKey": "5e8d7c59-491a-48",
-  "zipCompressJs": true,
-  "project": "/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon",
-  "projectName": "moon",
-  "debugBuildWorker": false
-}
-2020-07-06T11:15:08.649Z - normal: Building /Users/sunegg/Desktop/Sunegg/Cocos/projects/moon
-2020-07-06T11:15:08.649Z - normal: Destination /Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/build/jsb-default
-2020-07-06T11:15:08.718Z - normal: Delete /Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/build/jsb-default/subpackages/**/*,/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/build/jsb-default/res/**/*,/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/build/jsb-default/src/**/*
-2020-07-06T11:15:08.734Z - normal: Checked Python Version [2.7.16]
-2020-07-06T11:15:09.912Z - normal: Creating native cocos project to  /Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/build/jsb-default
-2020-07-06T11:15:15.749Z - normal: Start building assets
-2020-07-06T11:15:15.750Z - normal: Start spawn build-worker
-2020-07-06T11:15:16.189Z - normal: Finish spawn build-worker
-2020-07-06T11:15:16.189Z - normal: Start init build-worker
-2020-07-06T11:15:17.534Z - normal: Finish init build-worker
-2020-07-06T11:15:17.534Z - normal: Start build-assets in worker
-2020-07-06T11:15:17.557Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
-2020-07-06T11:15:17.855Z - normal: Finish build-assets in worker
-2020-07-06T11:15:17.857Z - normal: Finish building assets
-2020-07-06T11:15:17.857Z - normal: Start building plugin scripts
-2020-07-06T11:15:17.913Z - normal: Generating main.js from /Applications/CocosCreator/Creator/2.3.4/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2020-07-06T11:15:18.072Z - normal: Checked Python Version [2.7.16]
-2020-07-06T11:15:19.286Z - normal: Built to "/Users/sunegg/Desktop/Sunegg/Cocos/projects/moon/build/jsb-default" successfully
-2020-07-06T11:15:20.666Z - normal: Checked Python Version [2.7.16]
-2020-07-06T11:15:21.779Z - normal: Start to compile native project. Please wait...
-2020-07-06T11:15:21.779Z - normal: The log file path [ /Users/sunegg/.CocosCreator/logs/native.log ]
-2020-07-06T11:15:53.786Z - normal: Compile native project successfully.
