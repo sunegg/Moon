@@ -1,14 +1,14 @@
 {
   "title": "moon",
   "packageName": "org.cocos2d.demo",
-  "startScene": "ab4161ec-d1ad-4500-8edc-877de45d7794",
+  "startScene": "08e94cef-a60d-4f36-9a63-e9d4dfb8f06c",
   "excludeScenes": [],
   "includeSDKBox": false,
   "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
+    "upsideDown": true
   },
   "webOrientation": "auto",
   "inlineSpriteFrames": true,

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "privacyBtn",
+    "texture": "af002f56-f6ba-44f1-ab2e-6e776f0596fe",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      566,
+      412
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      566,
+      412
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

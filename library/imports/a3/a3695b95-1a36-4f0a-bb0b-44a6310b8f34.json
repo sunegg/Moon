@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "night",
+    "texture": "25503dd1-2d8d-46b7-90d9-9f2bbc20de74",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      2041,
+      3674
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2041,
+      3674
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

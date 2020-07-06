@@ -8,7 +8,33 @@
     ]
   ],
   "excluded-modules": [
-    "3D Physics/Builtin"
+    "Dynamic Atlas",
+    "DragonBones",
+    "EditBox",
+    "Graphics",
+    "Layout",
+    "Mask",
+    "MotionStreak",
+    "NodePool",
+    "Native Socket",
+    "PageView",
+    "PageViewIndicator",
+    "ProgressBar",
+    "ParticleSystem",
+    "RichText",
+    "Renderer Texture",
+    "Slider",
+    "ScrollBar",
+    "ScrollView",
+    "Spine Skeleton",
+    "StudioComponent",
+    "Toggle",
+    "TiledMap",
+    "VideoPlayer",
+    "3D Primitive",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
   ],
   "last-module-event-record-time": 1594026737840,
   "design-resolution-width": 1080,
@@ -35,6 +61,5 @@
   },
   "migrate-history": [
     "cloud-function"
-  ],
-  "start-scene": "current"
+  ]
 }
