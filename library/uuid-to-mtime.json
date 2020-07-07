@@ -65,9 +65,9 @@
     "relativePath": "resources/materials"
   },
   "ab4161ec-d1ad-4500-8edc-877de45d7794": {
-    "asset": 1594034078313,
-    "meta": 1594034078318,
-    "relativePath": "main.fire"
+    "asset": 1594114088267,
+    "meta": 1594114088272,
+    "relativePath": "scenes/main.fire"
   },
   "25503dd1-2d8d-46b7-90d9-9f2bbc20de74": {
     "asset": 1594033964451,
@@ -115,7 +115,7 @@
     "relativePath": "scripts/UIShowNode.ts"
   },
   "f3fd660d-4aed-4aa2-90e6-dc3ba6ff3dd9": {
-    "asset": 1594104488949,
+    "asset": 1594109173211,
     "meta": 1593935179140,
     "relativePath": "scripts"
   },
@@ -295,9 +295,9 @@
     "relativePath": "scripts/UILoadScene.ts"
   },
   "ca16e524-97b9-468d-9615-efa2a14f90f6": {
-    "asset": 1594111742050,
-    "meta": 1594111742057,
-    "relativePath": "game.fire"
+    "asset": 1594114080096,
+    "meta": 1594114080102,
+    "relativePath": "scenes/game.fire"
   },
   "1f2228ef-d375-4c99-9d68-d7c304b5348b": {
     "asset": 1594014534756,
@@ -392,12 +392,12 @@
   "c53ce51c-5150-40ff-87c8-29784475b57e": {
     "asset": 1594031481884,
     "meta": 1594031481887,
-    "relativePath": "web.fire"
+    "relativePath": "scenes/web.fire"
   },
   "08e94cef-a60d-4f36-9a63-e9d4dfb8f06c": {
     "asset": 1594031594036,
     "meta": 1594031594040,
-    "relativePath": "entry.fire"
+    "relativePath": "scenes/entry.fire"
   },
   "af002f56-f6ba-44f1-ab2e-6e776f0596fe": {
     "asset": 1594033964477,
@@ -884,14 +884,34 @@
     "meta": 1594110158805,
     "relativePath": "scripts/RandomSpawner.ts"
   },
-  "86cceede-412e-4ce2-8ef9-4bebb4fed172": {
-    "asset": 1594111473182,
-    "meta": 1594111615762,
-    "relativePath": "scripts/GameManager.ts"
-  },
   "76474beb-12f0-4f50-af30-6c95e105d184": {
     "asset": 1594111794974,
     "meta": 1594111798445,
     "relativePath": "scripts/Jump.ts"
+  },
+  "f9bae974-3739-4bf0-a268-df915ae21156": {
+    "asset": 1594112947619,
+    "meta": 1594112947641,
+    "relativePath": "sprites/yellow-bar.png"
+  },
+  "fc264942-5b84-4e95-b638-ad94af736610": {
+    "asset": 1594112947619,
+    "meta": 1594112947642,
+    "relativePath": "sprites/black-bar.png"
+  },
+  "290570c8-5091-40fb-9b70-7daf93cc8529": {
+    "asset": 1594112953040,
+    "meta": 1594112953041,
+    "relativePath": "scenes"
+  },
+  "86cceede-412e-4ce2-8ef9-4bebb4fed172": {
+    "asset": 1594113824665,
+    "meta": 1594113825534,
+    "relativePath": "scripts/GameManager.ts"
+  },
+  "0db35825-ec09-46ef-9d47-6f86e46f999b": {
+    "asset": 1594114018725,
+    "meta": 1594114019578,
+    "relativePath": "scripts/AutoFilled.ts"
   }
 }

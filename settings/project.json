@@ -67,5 +67,6 @@
   },
   "migrate-history": [
     "cloud-function"
-  ]
+  ],
+  "start-scene": "current"
 }

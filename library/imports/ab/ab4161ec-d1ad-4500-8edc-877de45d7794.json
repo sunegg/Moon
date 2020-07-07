@@ -205,7 +205,7 @@
       "array": [
         0,
         0,
-        731.7914661978507,
+        730.0594153902819,
         0,
         0,
         0,
@@ -3188,6 +3188,7 @@
     "nextStair": {
       "__id__": 33
     },
+    "patrol": null,
     "score": 0,
     "stairStartPos": 450,
     "scoreLabel": {

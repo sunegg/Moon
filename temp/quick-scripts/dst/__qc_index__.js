@@ -12,6 +12,7 @@
                         if (!nodeEnv) {__quick_compile_project__.registerModule(__filename, module);}
 require('./assets/scripts/Appegg');
 require('./assets/scripts/AudioManager');
+require('./assets/scripts/AutoFilled');
 require('./assets/scripts/AutoGravityPatrol');
 require('./assets/scripts/AutoMove');
 require('./assets/scripts/AutoPatrol');

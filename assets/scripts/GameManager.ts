@@ -7,6 +7,8 @@
 
 import Jump from "./Jump";
 import RandomSpawner from "./RandomSpawner";
+import AutoPatrol from "./AutoPatrol";
+import AutoFilled from "./AutoFilled";
 
 const { ccclass, property } = cc._decorator;
 
@@ -24,6 +26,9 @@ export default class GameManager extends cc.Component {
 
   @property(cc.RigidBody)
   nextStair: cc.RigidBody;
+
+  @property(AutoPatrol)
+  patrol: AutoPatrol = null;
     
   @property
   score: number = 0;
@@ -75,7 +80,8 @@ export default class GameManager extends cc.Component {
           "addMoon",
           function (score) {
            // cc.log("addScore");
-           cc.audioEngine.play(this.scoreSfx,false,1);
+            cc.audioEngine.play(this.scoreSfx, false, 1);
+            AutoFilled.instance.node.emit("fill");
            this.score+= score;
            this.scoreLabel.string =  this.score.toString();
           },
@@ -123,7 +129,9 @@ export default class GameManager extends cc.Component {
 
 
   addScore(score) {
-    
+    if (this.score >= 10) {
+      this.patrol.enabled = true;
+    }
     if (this.isJump) {
 
       this.score += score;

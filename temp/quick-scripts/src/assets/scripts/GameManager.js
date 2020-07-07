@@ -31,11 +31,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var Jump_1 = require("./Jump");
 var RandomSpawner_1 = require("./RandomSpawner");
+var AutoPatrol_1 = require("./AutoPatrol");
+var AutoFilled_1 = require("./AutoFilled");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var GameManager = /** @class */ (function (_super) {
     __extends(GameManager, _super);
     function GameManager() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.patrol = null;
         _this.score = 0;
         _this.stairStartPos = 450;
         _this.isJump = false;
@@ -63,6 +66,7 @@ var GameManager = /** @class */ (function (_super) {
         this.node.on("addMoon", function (score) {
             // cc.log("addScore");
             cc.audioEngine.play(this.scoreSfx, false, 1);
+            AutoFilled_1.default.instance.node.emit("fill");
             this.score += score;
             this.scoreLabel.string = this.score.toString();
         }, this);
@@ -92,6 +96,9 @@ var GameManager = /** @class */ (function (_super) {
         }, this);
     };
     GameManager.prototype.addScore = function (score) {
+        if (this.score >= 10) {
+            this.patrol.enabled = true;
+        }
         if (this.isJump) {
             this.score += score;
             this.scoreLabel.string = this.score.toString();
@@ -129,6 +136,9 @@ var GameManager = /** @class */ (function (_super) {
     __decorate([
         property(cc.RigidBody)
     ], GameManager.prototype, "nextStair", void 0);
+    __decorate([
+        property(AutoPatrol_1.default)
+    ], GameManager.prototype, "patrol", void 0);
     __decorate([
         property
     ], GameManager.prototype, "score", void 0);

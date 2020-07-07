@@ -195,7 +195,7 @@
       "array": [
         0,
         0,
-        730.0594153902819,
+        729.1933899864974,
         0,
         0,
         0,
@@ -871,7 +871,7 @@
       "__id__": 15
     },
     "_enabled": false,
-    "amplitude": 300,
+    "amplitude": 4,
     "speed": 3,
     "_id": "84Pda4vL1DSpzRZ2gPrCqH"
   },
@@ -3961,6 +3961,9 @@
     },
     "nextStair": {
       "__id__": 34
+    },
+    "patrol": {
+      "__id__": 19
     },
     "score": 0,
     "stairStartPos": -700,
