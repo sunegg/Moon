@@ -1,10 +1,16 @@
 {
   "group-list": [
-    "default"
+    "default",
+    "prop"
   ],
   "collision-matrix": [
     [
+      true,
       true
+    ],
+    [
+      true,
+      false
     ]
   ],
   "excluded-modules": [
@@ -61,6 +67,5 @@
   },
   "migrate-history": [
     "cloud-function"
-  ],
-  "start-scene": "current"
+  ]
 }

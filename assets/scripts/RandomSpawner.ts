@@ -30,6 +30,10 @@ export default class RandomSpawner extends cc.Component {
   @property
   maxY: number = 0;
     
+    
+  @property
+  offsetY: number = 0;
+    
     onLoad() {
         RandomSpawner.instance = this;
         this.node.on(
@@ -37,7 +41,7 @@ export default class RandomSpawner extends cc.Component {
             this.spawn, this);
     }
 
-    start() {
+   /* start() {
         if (this.repeat) {
             this.spawn();
             this.schedule(function () {
@@ -45,13 +49,14 @@ export default class RandomSpawner extends cc.Component {
                 this.spawn();
             }, this.interval);
         }
-    }
+    }*/
+    
     spawn(): cc.Node {
         cc.log("spawnStair");
         var scene = cc.director.getScene();
        var node= cc.instantiate(this.prefab);
         node.parent = this.parent;
-        node.position =  cc.v3(0,this.randomIntFromInterval(this.minY, this.maxY),0);
+        node.position =  cc.v3(0,this.randomIntFromInterval(this.minY, this.maxY+this.offsetY),0);
        //node.setPosition(0, 0);
          return node;
     }

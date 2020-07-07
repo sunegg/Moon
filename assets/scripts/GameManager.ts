@@ -33,6 +33,8 @@ export default class GameManager extends cc.Component {
 
   isJump = false;
 
+  canSpawn = false;
+
   @property(cc.Label)
   scoreLabel: cc.Label;
 
@@ -69,13 +71,36 @@ export default class GameManager extends cc.Component {
           this
         );
       
+        this.node.on(
+          "addMoon",
+          function (score) {
+           // cc.log("addScore");
+           cc.audioEngine.play(this.scoreSfx,false,1);
+           this.score+= score;
+           this.scoreLabel.string =  this.score.toString();
+          },
+          this
+        );
     this.node.on(
       "addScore",
       function (score) {
+
        // cc.log("addScore");
        cc.audioEngine.play(this.scoreSfx,false,1);
-          this.addScore(score);
+       
+        this.addScore(score);
+        this.canSpawn = true;
           this.nextStair.type = cc.RigidBodyType.Dynamic;
+      },
+      this
+    );
+    this.node.on(
+      "spawnStair",
+      () => {
+        if (this.canSpawn) {
+          this.canSpawn = false;
+          this.spawnStair();
+        }
       },
       this
     );
@@ -90,23 +115,24 @@ export default class GameManager extends cc.Component {
           this.currentStair.gravity = 2;
           this.currentStair = this.nextStair;
           this.isJump = true;
-         
         }
         },
         this
       );
   }
 
+
   addScore(score) {
+    
     if (this.isJump) {
 
       this.score += score;
       this.scoreLabel.string = this.score.toString();
       Jump.instance.node.emit("addScore");
      
-      setTimeout(() => {
-        this.spawnStair();
-      }, 1500); 
+      //setTimeout(() => {
+     //   this.spawnStair();
+     // }, 1500); 
       this.isJump = false;
     }
   }

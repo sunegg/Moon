@@ -38,6 +38,7 @@ var RandomSpawner = /** @class */ (function (_super) {
         _this.interval = 5;
         _this.minY = 0;
         _this.maxY = 0;
+        _this.offsetY = 0;
         return _this;
         // update (dt) {}
     }
@@ -46,21 +47,21 @@ var RandomSpawner = /** @class */ (function (_super) {
         RandomSpawner_1.instance = this;
         this.node.on("spawn", this.spawn, this);
     };
-    RandomSpawner.prototype.start = function () {
-        if (this.repeat) {
-            this.spawn();
-            this.schedule(function () {
-                // 这里的 this 指向 component
-                this.spawn();
-            }, this.interval);
-        }
-    };
+    /* start() {
+         if (this.repeat) {
+             this.spawn();
+             this.schedule(function () {
+                 // 这里的 this 指向 component
+                 this.spawn();
+             }, this.interval);
+         }
+     }*/
     RandomSpawner.prototype.spawn = function () {
         cc.log("spawnStair");
         var scene = cc.director.getScene();
         var node = cc.instantiate(this.prefab);
         node.parent = this.parent;
-        node.position = cc.v3(0, this.randomIntFromInterval(this.minY, this.maxY), 0);
+        node.position = cc.v3(0, this.randomIntFromInterval(this.minY, this.maxY + this.offsetY), 0);
         //node.setPosition(0, 0);
         return node;
     };
@@ -86,6 +87,9 @@ var RandomSpawner = /** @class */ (function (_super) {
     __decorate([
         property
     ], RandomSpawner.prototype, "maxY", void 0);
+    __decorate([
+        property
+    ], RandomSpawner.prototype, "offsetY", void 0);
     RandomSpawner = RandomSpawner_1 = __decorate([
         ccclass
     ], RandomSpawner);

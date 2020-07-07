@@ -99,7 +99,7 @@ export default class Jump extends cc.Component {
       this.tween = cc.tween(this.node).to(1, { scale: 1 }).start();
       //console.log("jump" + power);
       this.animation.play();
-      this.rigidBody.linearVelocity = cc.v2(0, power * this.speed);
+      this.rigidBody.linearVelocity = cc.v2( 0, power * this.speed);
     }
   }
 

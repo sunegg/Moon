@@ -9,5 +9,6 @@ export default class GameData {
     static score: number = 0;
     static url: string;
   static privacyUrl: string;
+
 }
    

@@ -115,7 +115,7 @@
     "relativePath": "scripts/UIShowNode.ts"
   },
   "f3fd660d-4aed-4aa2-90e6-dc3ba6ff3dd9": {
-    "asset": 1594033215550,
+    "asset": 1594104488949,
     "meta": 1593935179140,
     "relativePath": "scripts"
   },
@@ -295,8 +295,8 @@
     "relativePath": "scripts/UILoadScene.ts"
   },
   "ca16e524-97b9-468d-9615-efa2a14f90f6": {
-    "asset": 1594033716972,
-    "meta": 1594033716979,
+    "asset": 1594111742050,
+    "meta": 1594111742057,
     "relativePath": "game.fire"
   },
   "1f2228ef-d375-4c99-9d68-d7c304b5348b": {
@@ -320,14 +320,9 @@
     "relativePath": "prefabs"
   },
   "63c3fe75-65cd-46f7-afd0-c9d383accbb6": {
-    "asset": 1594024978680,
-    "meta": 1594024978686,
+    "asset": 1594111762694,
+    "meta": 1594111762699,
     "relativePath": "prefabs/Stair.prefab"
-  },
-  "18c8fe32-5de4-4416-acfe-9439339032c0": {
-    "asset": 1594018154575,
-    "meta": 1594019848202,
-    "relativePath": "scripts/RandomSpawner.ts"
   },
   "2f058826-78ab-4a54-8926-77e99d72dc9e": {
     "asset": 1594021474032,
@@ -389,11 +384,6 @@
     "meta": 1594027357536,
     "relativePath": "scripts/Touch.ts"
   },
-  "76474beb-12f0-4f50-af30-6c95e105d184": {
-    "asset": 1594028200640,
-    "meta": 1594028201445,
-    "relativePath": "scripts/Jump.ts"
-  },
   "7d16fa2b-476c-4639-b3c8-782ec4537967": {
     "asset": 1594028999841,
     "meta": 1594028999909,
@@ -408,16 +398,6 @@
     "asset": 1594031594036,
     "meta": 1594031594040,
     "relativePath": "entry.fire"
-  },
-  "a6da620a-c2c5-4939-9ee6-107da131b741": {
-    "asset": 1594029240088,
-    "meta": 1594029243701,
-    "relativePath": "scripts/GameData.ts"
-  },
-  "86cceede-412e-4ce2-8ef9-4bebb4fed172": {
-    "asset": 1594029525497,
-    "meta": 1594029526263,
-    "relativePath": "scripts/GameManager.ts"
   },
   "af002f56-f6ba-44f1-ab2e-6e776f0596fe": {
     "asset": 1594033964477,
@@ -853,5 +833,65 @@
     "asset": 1594032149828,
     "meta": 1594032160103,
     "relativePath": "scripts/Appegg.ts"
+  },
+  "52df6e0e-e6fe-4be2-bf6e-f68c70cabb7c": {
+    "asset": 1594062476890,
+    "meta": 1594062477344,
+    "relativePath": "scripts/AutoRotation.ts"
+  },
+  "7780bd29-2e2a-487c-97fe-40a6c90c29ec": {
+    "asset": 1594063049144,
+    "meta": 1594063051001,
+    "relativePath": "scripts/AutoScale.ts"
+  },
+  "469c2a0e-e9f7-4149-a92f-a15f0960cc23": {
+    "asset": 1594064721464,
+    "meta": 1594064733003,
+    "relativePath": "scripts/Moon.ts"
+  },
+  "ffdbf730-86cd-4e63-b210-40e2aa54e852": {
+    "asset": 1594065606343,
+    "meta": 1594065607192,
+    "relativePath": "scripts/AutoPatrol.ts"
+  },
+  "913cca8a-962d-4122-9f67-01716234e01a": {
+    "asset": 1594103161235,
+    "meta": 1594103162333,
+    "relativePath": "scripts/AutoGravityPatrol.ts"
+  },
+  "a941dec8-f453-4ff4-b6a6-b221456d4dbc": {
+    "asset": 1594106472153,
+    "meta": 1594106473240,
+    "relativePath": "scripts/AutoMove.ts"
+  },
+  "f629a7a5-ecef-4590-aff4-bb2180750033": {
+    "asset": 1594106765143,
+    "meta": 1594106833462,
+    "relativePath": "scripts/SpawnTrigger.ts"
+  },
+  "a6da620a-c2c5-4939-9ee6-107da131b741": {
+    "asset": 1594108025731,
+    "meta": 1594108029909,
+    "relativePath": "scripts/GameData.ts"
+  },
+  "a4f644d9-c90e-4acb-b942-352aacfb0a47": {
+    "asset": 1594109103032,
+    "meta": 1594109173247,
+    "relativePath": "scripts/bug.ts"
+  },
+  "18c8fe32-5de4-4416-acfe-9439339032c0": {
+    "asset": 1594110157133,
+    "meta": 1594110158805,
+    "relativePath": "scripts/RandomSpawner.ts"
+  },
+  "86cceede-412e-4ce2-8ef9-4bebb4fed172": {
+    "asset": 1594111473182,
+    "meta": 1594111615762,
+    "relativePath": "scripts/GameManager.ts"
+  },
+  "76474beb-12f0-4f50-af30-6c95e105d184": {
+    "asset": 1594111794974,
+    "meta": 1594111798445,
+    "relativePath": "scripts/Jump.ts"
   }
 }

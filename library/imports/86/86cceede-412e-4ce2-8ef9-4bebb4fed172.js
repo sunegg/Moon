@@ -39,11 +39,13 @@ var GameManager = /** @class */ (function (_super) {
         _this.score = 0;
         _this.stairStartPos = 450;
         _this.isJump = false;
+        _this.canSpawn = false;
         return _this;
     }
     GameManager_1 = GameManager;
     // LIFE-CYCLE CALLBACKS:
     GameManager.prototype.onLoad = function () {
+        var _this = this;
         GameManager_1.instance = this;
         this.gameOver = false;
         this.node.on("gameOver", function () {
@@ -58,11 +60,24 @@ var GameManager = /** @class */ (function (_super) {
                     this.nextStair.node.destroy();
             }
         }, this);
+        this.node.on("addMoon", function (score) {
+            // cc.log("addScore");
+            cc.audioEngine.play(this.scoreSfx, false, 1);
+            this.score += score;
+            this.scoreLabel.string = this.score.toString();
+        }, this);
         this.node.on("addScore", function (score) {
             // cc.log("addScore");
             cc.audioEngine.play(this.scoreSfx, false, 1);
             this.addScore(score);
+            this.canSpawn = true;
             this.nextStair.type = cc.RigidBodyType.Dynamic;
+        }, this);
+        this.node.on("spawnStair", function () {
+            if (_this.canSpawn) {
+                _this.canSpawn = false;
+                _this.spawnStair();
+            }
         }, this);
         this.node.on("jump", function () {
             if (!this.isJump) {
@@ -77,14 +92,13 @@ var GameManager = /** @class */ (function (_super) {
         }, this);
     };
     GameManager.prototype.addScore = function (score) {
-        var _this = this;
         if (this.isJump) {
             this.score += score;
             this.scoreLabel.string = this.score.toString();
             Jump_1.default.instance.node.emit("addScore");
-            setTimeout(function () {
-                _this.spawnStair();
-            }, 1500);
+            //setTimeout(() => {
+            //   this.spawnStair();
+            // }, 1500); 
             this.isJump = false;
         }
     };
